@@ -11,9 +11,9 @@
 #import "WQAWkWebview.h"
 #import <WQAWebviewPool.h>
 #import "ObjcHelpFunc.h"
+#import "WQAJavaScriptStrResource.h"
 #if __has_include(<WQAOfflineUtil.h>)
 #import "WQAOfflineUtil.h"
-#import "WQAJavaScriptStrResource.h"
 #endif
 
 @interface WQAWebEnvironment()
@@ -67,8 +67,6 @@ SINGLETON_IMP(WQAWebEnvironment)
 - (WKUserScript *)jsBridgeScript {
     if (!_jsBridgeScript) {
         NSString *a = [WQAJavaScriptStrResource WQAJavascriptBridgeString];
-//        NSString *path = [[NSBundle mainBundle] pathForResource:@"ajaxhook" ofType:@"js"];
-//        NSString *scriptText = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
         _jsBridgeScript = [[WKUserScript alloc] initWithSource:a injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES];
     }
     return _jsBridgeScript;
