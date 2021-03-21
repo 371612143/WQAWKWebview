@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - WQAWKWebview/Intercept (2.1.1):
+    - AFNetworking (~> 4.0)
+  - WQAWKWebview/Webview (2.1.1):
+    - AFNetworking (~> 4.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - SDWebImage (~> 5.0)
+  - WQAWKWebview/Intercept (from `../`)
+  - WQAWKWebview/Webview (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  WQAWKWebview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  WQAWKWebview: 9018d66c2aaf24e7825c03ab8247b6aa5a58be2e
+
+PODFILE CHECKSUM: 7e714a057799b1c1489a7b163262a0c786a76ab6
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,11 @@
+use_frameworks!
+
+inhibit_all_warnings!
+
+platform :ios, '13.0'
+
+target 'WQAWKWebview_Example' do
+  pod 'WQAWKWebview', :subspecs=>["Webview", "Intercept"], :path => '../', :inhibit_warnings => false
+  pod 'SDWebImage', '~> 5.0'
+  pod 'AFNetworking', '~> 4.0'
+end
