@@ -13,8 +13,7 @@
 #import "ObjcHelpFunc.h"
 #if __has_include(<WQAOfflineUtil.h>)
 #import "WQAOfflineUtil.h"
-#import "WQAAjaxHookString.h"
-#import "WQAJavascriptBridgeString.h"
+#import "WQAJavaScriptStrResource.h"
 #endif
 
 @interface WQAWebEnvironment()

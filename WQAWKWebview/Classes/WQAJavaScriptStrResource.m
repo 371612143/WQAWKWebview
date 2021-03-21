@@ -1,11 +1,11 @@
 //
-//  WQAAjaxHookString.m
+//  WQAJavaScriptStrResource.m
 //  WQAWebviewComponent
 //
 //  Created by 王庆安 on 2021/3/19.
 //
 
-#import "WQAAjaxHookString.h"
+#import "WQAJavaScriptStrResource.h"
 
 @implementation WQAJavaScriptStrResource
 

@@ -1,5 +1,5 @@
 //
-//  WQAAjaxHookString.h
+//  WQAJavaScriptStrResource.h
 //  WQAWebviewComponent
 //
 //  Created by 王庆安 on 2021/3/19.
