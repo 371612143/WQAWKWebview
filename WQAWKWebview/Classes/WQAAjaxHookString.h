@@ -8,4 +8,7 @@
 #import <UIKit/UIKit.h>
 
 
-NSString * WQAAjaxHookString_js(void);
+@interface WQAJavaScriptStrResource : NSObject
++ (NSString *)WQAAjaxHookString_js;
++ (NSString *)WQAJavascriptBridgeString;
+@end

@@ -17,9 +17,9 @@ PODS:
   - SDWebImage (5.10.0):
     - SDWebImage/Core (= 5.10.0)
   - SDWebImage/Core (5.10.0)
-  - WQAWKWebview/Intercept (2.1.1):
+  - WQAWKWebview/Intercept (0.0.1):
     - AFNetworking (~> 4.0)
-  - WQAWKWebview/Webview (2.1.1):
+  - WQAWKWebview/Webview (0.0.1):
     - AFNetworking (~> 4.0)
 
 DEPENDENCIES:
@@ -40,8 +40,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
-  WQAWKWebview: 9018d66c2aaf24e7825c03ab8247b6aa5a58be2e
+  WQAWKWebview: a8f8a571dbf3283ca9ed23fcb9caf4d3f8044194
 
-PODFILE CHECKSUM: 7e714a057799b1c1489a7b163262a0c786a76ab6
+PODFILE CHECKSUM: 85db57a6442066e11ec957689fb43fe12db02958
 
 COCOAPODS: 1.10.0

@@ -7,4 +7,4 @@
 
 #import <UIKit/UIKit.h>
 
-NSString *WQAJavascriptBridgeString(void);
+extern NSString *WQAJavascriptBridgeString(void);

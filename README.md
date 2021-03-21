@@ -22,7 +22,7 @@ pod 'WQAWKWebview'
 
 ## Author
 
-a371612143@qq.com, qinganwang@tencent.com
+a371612143@qq.com
 
 ## License
 

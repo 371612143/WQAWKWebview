@@ -59,15 +59,15 @@ SINGLETON_IMP(WQAWebEnvironment)
 
 - (WKUserScript *)ajaxHookScript {
     if (!_ajaxHookScript) {
-        NSString *a = WQAAjaxHookString_js();
-        _ajaxHookScript = [[WKUserScript alloc] initWithSource:a injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES];
+        NSString *ajaxhookStr = [WQAJavaScriptStrResource WQAAjaxHookString_js];;
+        _ajaxHookScript = [[WKUserScript alloc] initWithSource:ajaxhookStr injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES];
     }
     return _ajaxHookScript;
 }
 
 - (WKUserScript *)jsBridgeScript {
     if (!_jsBridgeScript) {
-        NSString *a = WQAJavascriptBridgeString();
+        NSString *a = [WQAJavaScriptStrResource WQAJavascriptBridgeString];
 //        NSString *path = [[NSBundle mainBundle] pathForResource:@"ajaxhook" ofType:@"js"];
 //        NSString *scriptText = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
         _jsBridgeScript = [[WKUserScript alloc] initWithSource:a injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES];
